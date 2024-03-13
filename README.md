@@ -1,5 +1,4 @@
 # Ethnicity-Recognition-with-Facial-Features
-# Ethnicity Recognition with Facial Features
 
 ## Overview
 
