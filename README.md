@@ -36,7 +36,7 @@ The FACES-1 dataset comprises approximately 700 images, with each image belongin
 4. Middle-Eastern
 5. North-African
 6. South-Asian
-7. Sub-Saharan
+7. Sub-Saharian
 
 ## Comparative Analysis
 
