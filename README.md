@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is inspired by the research article titled "Recognizing Human Races through Machine Learning—A Multi-Network, Multi-Features Study" by Adrian Sergiu Darabant, Diana Borza, and Radu Danescu. The aim of this implementation is to replicate and extend the findings of the paper, exploring ethnicity recognition using deep learning models and multiple features.
+This project is inspired by the research article titled "Recognizing Human Races through Machine Learning—A Multi-Network, Multi-Features Study" by Adrian Sergiu Darabant, Diana Borza, and Radu Danescu. The aim of this implementation is to replicate and extend the findings of the paper, comparing how different models perform in analyzing facial features for multi-class ethnicity recognition, highlighting the potential advantages of ResNetV2 in this specific scenario.  Additionally, we explore the impact of a custom, limited dataset size on model accuracy compared to the paper's findings.
 
 ## Article Reference
 
@@ -26,7 +26,7 @@ VGG16 is a classic convolutional neural network architecture that gained popular
 
 ## FACES-1 Dataset
 
-The FACES-1 dataset comprises approximately 700 images, with each image belonging to one of the seven predefined ethnicity labels. The dataset is designed for facial feature-based ethnicity recognition and serves as the basis for training and evaluating the deep learning models in this project.
+This project utilizes a custom dataset, FACES-1,  comprising approximately 700 images. Each image is labeled with one of seven predefined ethnicity categories. The dataset serves as the foundation for training and evaluating the implemented deep learning models.
 
 ## Labels/Classes
 
@@ -38,14 +38,22 @@ The FACES-1 dataset comprises approximately 700 images, with each image belongin
 6. South-Asian
 7. Sub-Saharian
 
+   ![Capture](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/3056885f-56f3-40a8-8097-fcf368bb24f7)
+   ![2](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/2f76672e-3bf5-4986-a757-9ad285bf060b)
+
+  ![3](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/57976f82-2ed0-40ae-a233-bbb2bc62942c)
+
+
+
 ## Comparative Analysis
 
 The project includes a comparative analysis of the implemented models:
 
 - **ResNet50**
-  - ROC Curve: [Image Link]
-  - Classification Report: [Textual Report]
-  - Test Accuracy: [Accuracy Percentage]
+  - ROC Curve: ![4](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/d6de2d60-bdfd-4db1-992a-513e9e8c36d3)
+
+  - Classification Report: ![7](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/609a7469-f79b-4ec0-8e8c-9de89e0e95c0)
+
   - **Interpretation:**
     - **Accuracy:** 17%
     - **Observations:**
@@ -54,9 +62,10 @@ The project includes a comparative analysis of the implemented models:
       - Most classes have very low precision, recall, and F1-score, suggesting poor model performance.
 
 - **ResNet50V2**
-  - ROC Curve: [Image Link]
-  - Classification Report: [Textual Report]
-  - Test Accuracy: [Accuracy Percentage]
+  - ROC Curve: ![5](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/e716e8cd-3e9b-4dbf-a49f-641962279776)
+
+  - Classification Report: ![8](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/a58be5d6-684b-488f-800b-b167a0dd516a)
+
   - **Interpretation:**
     - **Accuracy:** 58%
     - **Observations:**
@@ -65,9 +74,10 @@ The project includes a comparative analysis of the implemented models:
       - Some classes, like Class 4, have lower precision, recall, and F1-score, indicating challenges in predicting these classes accurately.
 
 - **VGG16**
-  - ROC Curve: [Image Link]
-  - Classification Report: [Textual Report]
-  - Test Accuracy: [Accuracy Percentage]
+  - ROC Curve: ![6](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/a52522d5-b971-4b6a-9074-09410ac27184)
+
+  - Classification Report: ![9](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/bda3d67f-51e9-48ce-a413-3ba08e64b0a0)
+
   - **Interpretation:**
     - **Accuracy:** 23%
     - **Observations:**
@@ -79,18 +89,18 @@ The project includes a comparative analysis of the implemented models:
 - **Class Imbalance:**
   - The models might be influenced by class imbalance, particularly visible in classes with low support (number of samples).
   - Techniques to handle class imbalance, such as oversampling or adjusting class weights, could be explored.
+    ![10](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/f4c3e006-283a-4ed5-8a7c-ad8b25e829f8)
+
+    ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/ba3f81e6-5d1f-4358-8750-7482680f1021)
+
+    
+![12](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/83d7509b-abf5-43f9-80ef-ac7b30ab7912)
+
+
 
 - **Recommendations:**
   - Consider exploring additional metrics and visualizations to gain a more comprehensive understanding of model performance.
   - Address class imbalance to improve model predictions for minority classes.
   - Experiment with different model architectures, hyperparameters, or data preprocessing techniques to enhance overall performance.
 
-These interpretations highlight the strengths and weaknesses of each model. Depending on the specific requirements of your application, you might need to prioritize certain classes or aspects of performance. Additionally, optimizing hyperparameters, trying different model architectures, or leveraging more advanced techniques could lead to further improvements.
 
-## Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/ethnicity-recognition.git
-   cd ethnicity-recognition
