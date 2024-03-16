@@ -8,7 +8,7 @@ This project is inspired by the research article titled "Recognizing Human Races
 
 - **Title**: Recognizing Human Races through Machine Learning—A Multi-Network, Multi-Features Study
 - **Authors**: Adrian Sergiu Darabant, Diana Borza, and Radu Danescu
-- **Link to Article**: [Link to Article](provide_link_here)
+- **Link to Article**: [Link to Article](https://www.mdpi.com/2227-7390/9/2/195)
 
 ## Models
 
