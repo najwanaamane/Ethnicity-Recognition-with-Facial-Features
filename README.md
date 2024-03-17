@@ -11,7 +11,7 @@ This project is inspired by the research article titled "Recognizing Human Races
 - **Link to Article**: [Link to Article](https://www.mdpi.com/2227-7390/9/2/195)
 
 ## Models  
--**Link to models on Hugging Face**: [Link to fine-tuned models and weights](https://www.mdpi.com/2227-7390/9/2/195](https://huggingface.co/Najwa5/Ethnicity_imageClassifier/tree/main))
+-**Link to models on Hugging Face**: [Link to fine-tuned models and weights](https://huggingface.co/Najwa5/Ethnicity_imageClassifier/tree/main))
 
 
 Model 1 : ResNet50
@@ -24,7 +24,7 @@ Model 3 : VGG16
 
 
 ## FACES-1 Dataset 
-  -**Link to Dataset on Hugging Face**: [Link to Dataset](https://www.mdpi.com/2227-7390/9/2/195](https://huggingface.co/datasets/Najwa5/FACES-1))
+  -**Link to Dataset on Hugging Face**: [Link to Dataset]((https://huggingface.co/datasets/Najwa5/FACES-1))
 
 This project utilizes a custom dataset: FACES-1,  comprising approximately 700 images. Each image is labeled with one of seven ethnicity categories, predefined and encoded as follows: 
 
