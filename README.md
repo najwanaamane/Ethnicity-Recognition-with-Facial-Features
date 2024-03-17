@@ -10,7 +10,8 @@ This project is inspired by the research article titled "Recognizing Human Races
 - **Authors**: Adrian Sergiu Darabant, Diana Borza, and Radu Danescu
 - **Link to Article**: [Link to Article](https://www.mdpi.com/2227-7390/9/2/195)
 
-## Models 
+## Models [Link to fine-tuned models and weights]([https://www.mdpi.com/2227-7390/9/2/195](https://huggingface.co/Najwa5/Ethnicity_imageClassifier/tree/main))
+
 
 Model 1 : ResNet50
 
@@ -21,7 +22,7 @@ Model 2 : ResNet50V2
 Model 3 : VGG16
 
 
-## FACES-1 Dataset
+## FACES-1 Dataset   [Link to Datase]([https://www.mdpi.com/2227-7390/9/2/195](https://huggingface.co/datasets/Najwa5/FACES-1))
 
 This project utilizes a custom dataset: FACES-1,  comprising approximately 700 images. Each image is labeled with one of seven ethnicity categories, predefined and encoded as follows: 
 
@@ -70,7 +71,7 @@ The project includes a comparative analysis of the implemented models:
 
 The significant difference in AUC between ResNetV2 and the other models emphasizes its strength in this specific application.  
 
-### More accuracy and AUC Differences throughout classes : 
+### More performance and AUC Differences throughout classes : 
 
 - **ResNet50**  
   ResNet50 is a deep convolutional neural network architecture known for its residual blocks. It is widely used in image recognition tasks and has 50 layers. The architecture enables training deeper networks, mitigating the vanishing gradient problem.  
