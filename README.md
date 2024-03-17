@@ -130,9 +130,9 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
     - **Observations:**
       - The model has challenges predicting several classes, resulting in low precision, recall, and F1-scores for most classes.
      
-###Application on famous actors: Sendhil Ramamurthy and Margot Robbie:
+### Application on famous actors: Sendhil Ramamurthy and Margot Robbie:
 
-   ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/1bf6c467-f214-464f-a860-77287424f629)    ![12](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/6df43856-5652-4157-9da9-a826dc9b41eb)
+   ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/1bf6c467-f214-464f-a860-77287424f629)        ![12](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/6df43856-5652-4157-9da9-a826dc9b41eb)
 
 
 
@@ -147,7 +147,7 @@ The project conducted a comparative analysis to assess the performance of variou
 
 **Limited Dataset Impact:**  The relatively small size of the FACES-1 dataset likely contributed to the lower accuracies observed compared to the findings in the reference article [1]. A larger dataset might lead to improved model performance for all architectures.  
 
-**Exploration Efforts:**  While this study experimented with different model architectures, hyperparameters, and data preprocessing techniques to enhance overall performance, _ResNetV2 consistently achieved superior results_. This observation aligns with the findings of the referenced article, suggesting ResNetV2's inherent suitability for this task, even under constraints.    
+**Exploration Efforts:**  While this study experimented with different model architectures, hyperparameters, and data preprocessing techniques to enhance overall performance, **ResNetV2 consistently achieved superior results**. This observation aligns with the findings of the referenced article, suggesting ResNetV2's inherent suitability for this task, even under constraints.    
 
     
 
