@@ -128,7 +128,12 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
   - **Interpretation:**
     - **Accuracy:** 23%
     - **Observations:**
-      - The model has challenges predicting several classes, resulting in low precision, recall, and F1-scores for most classes.  
+      - The model has challenges predicting several classes, resulting in low precision, recall, and F1-scores for most classes.
+
+   ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/1bf6c467-f214-464f-a860-77287424f629)
+
+   ![12](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/6df43856-5652-4157-9da9-a826dc9b41eb)
+
      
       
 
@@ -136,15 +141,13 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
 
 The project conducted a comparative analysis to assess the performance of various deep learning models for ethnicity recognition using facial features. Here's a summary of the key takeaways:  
 
-**ResNetV2's Superiority:**  ResNetV2 consistently outperformed ResNet50 and VGG16 in terms of overall accuracy ([**58%**]) and Area Under the ROC Curve (AUC) (**0.92**). This highlights its potential effectiveness for multi-class, multi-feature ethnicity recognition tasks, even with the limitations of a small dataset. 
+**ResNetV2's Superiority:**  ResNetV2 consistently outperformed ResNet50 and VGG16 in terms of overall accuracy _(**58%**)_ and Area Under the ROC Curve (AUC) _(**0.92**)_. This highlights its potential effectiveness for multi-class, multi-feature ethnicity recognition tasks, even with the limitations of a small dataset. 
 
 **Limited Dataset Impact:**  The relatively small size of the FACES-1 dataset likely contributed to the lower accuracies observed compared to the findings in the reference article [1]. A larger dataset might lead to improved model performance for all architectures.  
 
-**Exploration Efforts:**  While this study experimented with different model architectures, hyperparameters, and data preprocessing techniques (including face detection and normalization) to enhance overall performance, ResNetV2 consistently achieved superior results. This observation aligns with the findings of the referenced article, suggesting ResNetV2's inherent suitability for this task, even under constraints.    
+**Exploration Efforts:**  While this study experimented with different model architectures, hyperparameters, and data preprocessing techniques to enhance overall performance, _ResNetV2 consistently achieved superior results_. This observation aligns with the findings of the referenced article, suggesting ResNetV2's inherent suitability for this task, even under constraints.    
 
-    ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/158c9645-b3f4-49aa-8364-6da5f3325405)
-  
-    ![12](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/f438ff16-af2f-4d16-9444-507e818d0d7e)
+    
 
 
 
