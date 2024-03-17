@@ -57,6 +57,17 @@ This project utilizes a custom dataset: FACES-1,  comprising approximately 700 i
 
 The project includes a comparative analysis of the implemented models:
 
+![10](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/e93de84d-c08e-44c0-9090-cd759bc4ed9b)
+
+### AUC Differences:  
+
+-ResNetV2: Achieved the highest AUC of 0.92.  
+-ResNet50: Achieved a lower AUC of 0.62.  
+-VGG16: Achieved a lower AUC of 0.63.  
+The significant difference in AUC between ResNetV2 and the other models emphasizes its strength in this specific application.  
+
+
+
 - **ResNet50**
   ResNet50 is a deep convolutional neural network architecture known for its residual blocks. It is widely used in image recognition tasks and has 50 layers. The architecture enables training deeper networks, mitigating the vanishing gradient problem.  
 
@@ -64,10 +75,10 @@ The project includes a comparative analysis of the implemented models:
 -**After fine-tuning and adjusting hyperparameters:**
  
   
-  - ROC Curve:
+  - ROC Curve:  
     ![4](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/d6de2d60-bdfd-4db1-992a-513e9e8c36d3)
 
-  - Classification Report:
+  - Classification Report:  
      ![7](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/609a7469-f79b-4ec0-8e8c-9de89e0e95c0)
 
   - **Interpretation:**
@@ -109,14 +120,7 @@ The project includes a comparative analysis of the implemented models:
     - **Observations:**
       - The model has challenges predicting several classes, resulting in low precision, recall, and F1-scores for most classes.  
      
-      ### AUC Differences:  
-
--ResNetV2: Achieved the highest AUC of 0.92.  
--ResNet50: Achieved a lower AUC of 0.62.  
--VGG16: Achieved a lower AUC of 0.63.  
-The significant difference in AUC between ResNetV2 and the other models further emphasizes its strength in this specific application.  
-
-![10](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/e93de84d-c08e-44c0-9090-cd759bc4ed9b)
+      
 
 ### General Observations:
 
