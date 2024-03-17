@@ -129,10 +129,12 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
     - **Accuracy:** 23%
     - **Observations:**
       - The model has challenges predicting several classes, resulting in low precision, recall, and F1-scores for most classes.
+     
+###Application on famous actors: Sendhil Ramamurthy and Margot Robbie:
 
-   ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/1bf6c467-f214-464f-a860-77287424f629)
+   ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/1bf6c467-f214-464f-a860-77287424f629)    ![12](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/6df43856-5652-4157-9da9-a826dc9b41eb)
 
-   ![12](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/6df43856-5652-4157-9da9-a826dc9b41eb)
+
 
      
       
