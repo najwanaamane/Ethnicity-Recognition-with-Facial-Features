@@ -79,7 +79,7 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
   ResNet50 is a deep convolutional neural network architecture known for its residual blocks. It is widely used in image recognition tasks and has 50 layers. The architecture enables training deeper networks, mitigating the vanishing gradient problem.  
 
 
-->**After fine-tuning and adjusting hyperparameters:**
+-->**After fine-tuning and adjusting hyperparameters:**
  
   
   - ROC Curve:
@@ -100,7 +100,7 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
 - **ResNet50V2**  
   ResNet50V2 is an improved version of ResNet50, addressing some of its limitations. It introduces various optimizations, including a revised residual block design, leading to better performance and faster convergence.  
   
-  ->**After fine-tuning and adjusting hyperparameters:**
+  -->**After fine-tuning and adjusting hyperparameters:**
 
 
   - ROC Curve:
@@ -122,7 +122,7 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
 - **VGG16**  
   VGG16 is a classic convolutional neural network architecture that gained popularity due to its simplicity. It has 16 weight layers and is known for its uniform architecture, using small 3x3 convolutional filters.  
   
-  ->**After fine-tuning and adjusting hyperparameters:**
+  -->**After fine-tuning and adjusting hyperparameters:**
 
   - ROC Curve:
       
