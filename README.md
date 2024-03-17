@@ -23,7 +23,7 @@ Model 3 : VGG16
 
 ## FACES-1 Dataset
 
-This project utilizes a custom dataset: FACES-1,  comprising approximately 700 images. Each image is labeled with one of seven predefined ethnicity categories. 
+This project utilizes a custom dataset: FACES-1,  comprising approximately 700 images. Each image is labeled with one of seven ethnicity categories, predefined and encoded as follows: 
 
 ### Labels/Classes
 
@@ -72,7 +72,7 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
 
 ### More accuracy and AUC Differences throughout classes : 
 
-- **ResNet50**
+- **ResNet50**  
   ResNet50 is a deep convolutional neural network architecture known for its residual blocks. It is widely used in image recognition tasks and has 50 layers. The architecture enables training deeper networks, mitigating the vanishing gradient problem.  
 
 
@@ -92,7 +92,9 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
     - **Observations:**
       - Most classes have very low precision, recall, and F1-score, suggesting poor model performance.
 
-- **ResNet50V2**
+          
+
+- **ResNet50V2**  
   ResNet50V2 is an improved version of ResNet50, addressing some of its limitations. It introduces various optimizations, including a revised residual block design, leading to better performance and faster convergence.  
   
   ->**After fine-tuning and adjusting hyperparameters:**
@@ -110,9 +112,11 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
     - **Accuracy:** 58%
     - **Observations:**
       - Improved overall accuracy compared to Model 1.
+
+          
         
 
-- **VGG16**
+- **VGG16**  
   VGG16 is a classic convolutional neural network architecture that gained popularity due to its simplicity. It has 16 weight layers and is known for its uniform architecture, using small 3x3 convolutional filters.  
   
   ->**After fine-tuning and adjusting hyperparameters:**
@@ -130,7 +134,7 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
     - **Observations:**
       - The model has challenges predicting several classes, resulting in low precision, recall, and F1-scores for most classes.
      
-### Application on famous actors: Sendhil Ramamurthy and Margot Robbie:
+### Application on famous actors (Sendhil Ramamurthy and Margot Robbie) :
 
    ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/1bf6c467-f214-464f-a860-77287424f629)        ![12](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/6df43856-5652-4157-9da9-a826dc9b41eb)
 
@@ -147,7 +151,7 @@ The project conducted a comparative analysis to assess the performance of variou
 
 **Limited Dataset Impact:**  The relatively small size of the FACES-1 dataset likely contributed to the lower accuracies observed compared to the findings in the reference article [1]. A larger dataset might lead to improved model performance for all architectures.  
 
-**Exploration Efforts:**  While this study experimented with different model architectures, hyperparameters, and data preprocessing techniques to enhance overall performance, **ResNetV2 consistently achieved superior results**. This observation aligns with the findings of the referenced article, suggesting ResNetV2's inherent suitability for this task, even under constraints.    
+**Exploration Efforts:**  While this study experimented with different model architectures, hyperparameters, and data preprocessing techniques to enhance overall performance, _**ResNetV2 consistently achieved superior results**_. This observation aligns with the findings of the referenced article, suggesting ResNetV2's inherent suitability for this task, even under constraints.    
 
     
 
