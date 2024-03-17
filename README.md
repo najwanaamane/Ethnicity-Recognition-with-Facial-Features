@@ -59,14 +59,14 @@ The project includes a comparative analysis of the implemented models:
 
 ![10](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/e93de84d-c08e-44c0-9090-cd759bc4ed9b)
 
-### AUC Differences:  
+### Overall AUC Differences:  
 
 -ResNetV2: Achieved the highest AUC of 0.92.  
 -ResNet50: Achieved a lower AUC of 0.62.  
 -VGG16: Achieved a lower AUC of 0.63.  
 The significant difference in AUC between ResNetV2 and the other models emphasizes its strength in this specific application.  
 
-
+### More accuracy and AUC Differences throughout classes : 
 
 - **ResNet50**
   ResNet50 is a deep convolutional neural network architecture known for its residual blocks. It is widely used in image recognition tasks and has 50 layers. The architecture enables training deeper networks, mitigating the vanishing gradient problem.  
@@ -92,10 +92,10 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
   -**After fine-tuning and adjusting hyperparameters:**
 
 
-  - ROC Curve:
+  - ROC Curve:  
     ![5](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/e716e8cd-3e9b-4dbf-a49f-641962279776)
 
-  - Classification Report:
+  - Classification Report:  
      ![8](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/a58be5d6-684b-488f-800b-b167a0dd516a)
 
   - **Interpretation:**
@@ -109,10 +109,10 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
   
   -**After fine-tuning and adjusting hyperparameters:**
 
-  - ROC Curve:
+  - ROC Curve:  
      ![6](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/a52522d5-b971-4b6a-9074-09410ac27184)
 
-  - Classification Report:
+  - Classification Report:  
      ![9](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/bda3d67f-51e9-48ce-a413-3ba08e64b0a0)
 
   - **Interpretation:**
@@ -122,13 +122,14 @@ The significant difference in AUC between ResNetV2 and the other models emphasiz
      
       
 
-### General Observations:
+## General Observations:
 
 The project conducted a comparative analysis to assess the performance of various deep learning models for ethnicity recognition using facial features. Here's a summary of the key takeaways:  
 
--**ResNetV2's Superiority**: ResNetV2 consistently outperformed ResNet50 and VGG16 in terms of overall accuracy ([58%]) and Area Under the ROC Curve (AUC) (0.92). This highlights its potential effectiveness for multi-class, multi-feature ethnicity recognition tasks, even with the limitations of a small dataset.  
--**Limited Dataset Impact**: The relatively small size of the FACES-1 dataset likely contributed to the lower accuracies observed compared to the findings in the reference article [1]. A larger dataset might lead to improved model performance for all architectures.  
--**Exploration Efforts**: While this study experimented with different model architectures, hyperparameters, and data preprocessing techniques (including face detection and normalization) to enhance overall performance, ResNetV2 consistently achieved superior results. This observation aligns with the findings of the referenced article, suggesting ResNetV2's inherent suitability for this task, even under constraints.  
+### ResNetV2's Superiority: ResNetV2 consistently outperformed ResNet50 and VGG16 in terms of overall accuracy ([**58%**]) and Area Under the ROC Curve (AUC) (**0.92**). This highlights its potential effectiveness for multi-class, multi-feature ethnicity recognition tasks, even with the limitations of a small dataset. 
+
+### Limited Dataset Impact: The relatively small size of the FACES-1 dataset likely contributed to the lower accuracies observed compared to the findings in the reference article [1]. A larger dataset might lead to improved model performance for all architectures.  
+### Exploration Efforts: While this study experimented with different model architectures, hyperparameters, and data preprocessing techniques (including face detection and normalization) to enhance overall performance, ResNetV2 consistently achieved superior results. This observation aligns with the findings of the referenced article, suggesting ResNetV2's inherent suitability for this task, even under constraints.  
 
     ![11](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/158c9645-b3f4-49aa-8364-6da5f3325405)
 
