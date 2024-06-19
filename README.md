@@ -52,10 +52,7 @@ This project utilizes a custom dataset: FACES-1,  comprising approximately 700 i
    
    ![2](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/2f76672e-3bf5-4986-a757-9ad285bf060b)
    
-  ### Exploratory Data Analysis  
-    
 
-  ![3](https://github.com/najwanaamane/Ethnicity-Recognition-with-Facial-Features/assets/86806375/57976f82-2ed0-40ae-a233-bbb2bc62942c)
 
 
 
